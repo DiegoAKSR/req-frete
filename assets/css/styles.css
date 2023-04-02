@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.section {
+    padding: 10px 0 0 30px;
+    
+}
+
+.class-main {
+    display: grid;
+}
+
+.div-cabecalho {
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 700px;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-sup {
+    max-width: 200px;
+    max-height: 200px;
+    align-self: top;
+    padding-left: 5px;
+}
+
+.cab-h1 {
+    font-size: 18px;
+    text-align: right;
+    padding: 3px 30px 0 0;
+
+}
+
+.cabecalho P {
+    max-width: 220px;
+    font-size: 10PX;
+    padding: 5px;
+    
+}
+
+.input-filial {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+/*   Requisição de frete   */
+
+.requisicao-frete {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    border-top: 0px;
+    border-radius: 5px;
+    max-width: 700px;
+
+}
+
+.requisicao-frete h1 {
+    color: white;
+    background: black;
+    padding: 3px 0 3px 7px;
+}
+
+.n-requisicao {
+    color: red;
+    text-align: center;
+}
+
+.requisicao-frete-2 {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    align-items: center;
+    align-content: center;
+}
+
+/*   div transportadora    */
+
+.div-transp {
+    display: grid;
+    grid-template-columns: 1fr ;
+    border: 2px solid black;
+    border-top: 0px;
+    border-radius: 5px;
+    max-width: 700px;
+}
+
+.div-transp p {
+    padding: 5px 0 0 15px;
+}
